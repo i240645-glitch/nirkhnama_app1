@@ -1,0 +1,22 @@
+# Secrets - never commit
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+.venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local test artifacts
+test_receipt.png
+tmp/
